@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 4 box model prop</title>
+    <style>
+        /*Margin*/
+        .box{
+            margin: 20px;
+        }
+
+        /*Padding*/
+        .box-with-padding{
+            padding: 20px;
+        }
+
+        /*Border*/
+        .box-with-border{
+            border: 2px solid black;
+        }
+
+        /*Width & height*/
+        .box-with-dimenison{
+            width: 150px;
+            height: 200px;
+        }
+
+        /*Box sizing*/
+        .box-with-box-sizing{
+            width: auto;
+            height: auto;
+            padding: 10px;
+            border: 2px solid black;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>ini kotak dengan margin</p>
+    </div>
+
+    <div class="box-with-padding">
+        <p>ini kotak dengan padding</p>
+    </div>
+
+    <div class="box-with-border">
+        <p>ini kotak dengan border</p>
+    </div>
+
+    <div class="box-with-dimension">
+        <p>ini kotak dengan height dan width</p>
+    </div>
+
+    <div class="box-with-box-sizing">
+        <p>ini kotak dengan box sizing</p>
+    </div>
+</body>
+</html>

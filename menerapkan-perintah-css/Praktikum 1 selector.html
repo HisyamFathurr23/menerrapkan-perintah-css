@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 1 selector</title>
+    <style>
+        /*selector elemen*/
+        h1{
+            color: aqua;
+        }
+
+        /*selector kelas */
+        .my-class{
+            font-weight: bold;
+        }
+
+        /*selector ID*/
+        #my-id{
+            text-decoration: underline;
+        }
+
+        /*selector attribute*/
+        [type="submit"]{
+            background-color: green;
+        }
+
+        /*selector kombinasi*/
+        p.highlight{
+            background-color: yellow;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <p class="my-class">paragraf ini memiliki class</p>
+    <p class="my-id">paragraf ini memiliki id</p>
+    <input type="text" value="input field">
+    <input type="submit" value="submit button">
+    <p class="highlight">paragraf ini di highlight</p>
+</body>
+</html>
